@@ -11,6 +11,7 @@ from typing import Optional
 from os import path
 from fastapi_simple_security import api_key_router, api_key_security
 
+# Tags add descriptive text per section
 tags_metadata = [
     {
         "name": "_auth",
@@ -21,7 +22,8 @@ tags_metadata = [
         "description": "These are the default CRUD endpoints.",
     },
 ]
-#Create the application
+
+#Create the application (Controller Layer)
 app = FastAPI(
     title=path.splitext(path.basename(__file__))[0],
     summary="This is an example of an api in python using FastAPI and SQLAlchemy",
@@ -29,7 +31,7 @@ app = FastAPI(
     openapi_tags=tags_metadata
 )
 
-#Add models
+#Add models (Model Layer)
 models.Base.metadata.create_all(bind=engine)
 
 #Add DB layer/function
