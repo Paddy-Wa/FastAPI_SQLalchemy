@@ -1,3 +1,7 @@
 # FastAPI_SqlAlchemy
  Example of API built with FastAPI, SQLAlchemy and FastAPI_simple_security
-![image](https://github.com/Paddy-Wa/FastAPI_SqlAlchemy/assets/5898771/fb6a021b-adf2-4dc5-a3da-a7350dd09a5c)
+ One of the great things about FastAPI is self documentation like this...
+
+![image](https://github.com/Paddy-Wa/FastAPI_SqlAlchemy/assets/5898771/cae1c693-590a-4507-9b08-91751f7f18c3)
+
+
