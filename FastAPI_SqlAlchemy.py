@@ -112,4 +112,4 @@ if __name__ == "__main__":
      import uvicorn
      uvicorn.run(app, host="127.0.0.1", port=5000)
 
-## uvicorn app:app --reload --port=5000 # from cmd  
+## uvicorn FastAPI_SqlAlchemy:app --reload --port=5000 # from cmd  
